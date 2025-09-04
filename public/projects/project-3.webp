@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0f172a"/>
+  
+  <!-- Background for the face mask detection image -->
+  <rect x="100" y="50" width="600" height="500" rx="10" fill="#1e293b"/>
+  
+  <!-- Person with face mask image representation -->
+  <rect x="150" y="100" width="500" height="400" rx="5" fill="#334155"/>
+  
+  <!-- Face outline -->
+  <ellipse cx="400" cy="250" rx="120" ry="150" fill="#64748b"/>
+  
+  <!-- Hair -->
+  <path d="M320,150 C320,150 280,200 280,250 C280,300 320,350 320,350 L480,350 C480,350 520,300 520,250 C520,200 480,150 480,150 Z" fill="#1e293b"/>
+  
+  <!-- Face mask -->
+  <path d="M320,250 C320,250 350,320 400,320 C450,320 480,250 480,250 L480,350 L320,350 Z" fill="#0ea5e9"/>
+  <line x1="320" y1="250" x2="480" y2="250" stroke="white" stroke-width="2"/>
+  <line x1="400" y1="250" x2="400" y2="320" stroke="white" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="350" cy="220" rx="15" ry="10" fill="white"/>
+  <ellipse cx="450" cy="220" rx="15" ry="10" fill="white"/>
+  <circle cx="350" cy="220" r="5" fill="#1e293b"/>
+  <circle cx="450" cy="220" r="5" fill="#1e293b"/>
+  
+  <!-- Detection box -->
+  <rect x="280" y="150" width="240" height="250" rx="5" fill="none" stroke="#22c55e" stroke-width="6"/>
+  
+  <!-- Detection label -->
+  <rect x="280" y="400" width="240" height="40" rx="5" fill="#22c55e" fill-opacity="0.3"/>
+  <text x="300" y="425" font-family="Arial" font-size="20" fill="#22c55e">Face_Mask_found: 93%</text>
+  
+  <!-- Background elements to simulate a street scene -->
+  <rect x="150" y="450" width="500" height="50" fill="#475569"/> <!-- Road -->
+  
+  <!-- Street lights in background -->
+  <circle cx="600" cy="150" r="20" fill="#facc15" fill-opacity="0.5"/>
+  <circle cx="650" cy="200" r="15" fill="#facc15" fill-opacity="0.3"/>
+  
+  <!-- Blurred background elements -->
+  <rect x="550" y="300" width="50" height="100" rx="5" fill="#64748b" fill-opacity="0.3"/>
+  <rect x="200" y="350" width="40" height="80" rx="5" fill="#64748b" fill-opacity="0.3"/>
+  
+  <!-- App interface elements -->
+  <rect x="100" y="50" width="600" height="30" rx="5" fill="#0f172a"/>
+  <circle cx="120" cy="65" r="8" fill="#ef4444"/>
+  <circle cx="140" cy="65" r="8" fill="#facc15"/>
+  <circle cx="160" cy="65" r="8" fill="#22c55e"/>
+  
+  <!-- Camera controls -->
+  <rect x="650" y="100" width="30" height="60" rx="5" fill="#0f172a"/>
+  <circle cx="665" cy="120" r="8" fill="#3b82f6"/>
+  <rect x="655" y="140" width="20" height="10" rx="2" fill="#3b82f6"/>
+</svg>

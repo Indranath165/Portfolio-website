@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#0f172a"/>
+  
+  <!-- Header -->
+  <rect x="50" y="30" width="700" height="50" rx="5" fill="#1e293b"/>
+  <text x="100" y="60" font-family="Arial" font-size="20" fill="white">TrendTrove</text>
+  <rect x="430" y="40" width="200" height="30" rx="15" fill="#334155"/>
+  <text x="450" y="60" font-family="Arial" font-size="14" fill="#94a3b8">Search products...</text>
+  
+  <!-- Navigation -->
+  <rect x="50" y="90" width="150" height="450" rx="5" fill="#1e293b"/>
+  <text x="70" y="120" font-family="Arial" font-size="16" fill="white">Category</text>
+  <text x="70" y="150" font-family="Arial" font-size="16" fill="white">Size</text>
+  <text x="70" y="180" font-family="Arial" font-size="16" fill="white">Color</text>
+  
+  <!-- Product Grid -->
+  <rect x="210" y="90" width="540" height="450" rx="5" fill="#1e293b"/>
+  
+  <!-- Product 1 -->
+  <rect x="230" y="110" width="150" height="150" rx="5" fill="#334155"/>
+  <rect x="230" y="270" width="150" height="40" rx="5" fill="#1e293b"/>
+  <text x="240" y="290" font-family="Arial" font-size="12" fill="white">Classic Beanie</text>
+  <text x="240" y="305" font-family="Arial" font-size="12" fill="#3b82f6">$19.99</text>
+  
+  <!-- Product 2 -->
+  <rect x="400" y="110" width="150" height="150" rx="5" fill="#334155"/>
+  <rect x="400" y="270" width="150" height="40" rx="5" fill="#1e293b"/>
+  <text x="410" y="290" font-family="Arial" font-size="12" fill="white">Multi-tool Bag</text>
+  <text x="410" y="305" font-family="Arial" font-size="12" fill="#3b82f6">$45.00</text>
+  
+  <!-- Product 3 -->
+  <rect x="570" y="110" width="150" height="150" rx="5" fill="#334155"/>
+  <rect x="570" y="270" width="150" height="40" rx="5" fill="#1e293b"/>
+  <text x="580" y="290" font-family="Arial" font-size="12" fill="white">Wool Scarf</text>
+  <text x="580" y="305" font-family="Arial" font-size="12" fill="#3b82f6">$9.99</text>
+  
+  <!-- Product 4 -->
+  <rect x="230" y="330" width="150" height="150" rx="5" fill="#334155"/>
+  <ellipse cx="305" cy="405" rx="50" ry="50" fill="#fbbf24" opacity="0.7"/>
+  <rect x="230" y="490" width="150" height="40" rx="5" fill="#1e293b"/>
+  <text x="240" y="510" font-family="Arial" font-size="12" fill="white">Vintage Sunglasses</text>
+  <text x="240" y="525" font-family="Arial" font-size="12" fill="#3b82f6">$29.99</text>
+  
+  <!-- Product 5 -->
+  <rect x="400" y="330" width="150" height="150" rx="5" fill="#334155"/>
+  <ellipse cx="475" cy="405" rx="50" ry="50" fill="#64748b" opacity="0.7"/>
+  <rect x="400" y="490" width="150" height="40" rx="5" fill="#1e293b"/>
+  <text x="410" y="510" font-family="Arial" font-size="12" fill="white">Designer Glasses</text>
+  <text x="410" y="525" font-family="Arial" font-size="12" fill="#3b82f6">$79.99</text>
+  
+  <!-- Product 6 -->
+  <rect x="570" y="330" width="150" height="150" rx="5" fill="#334155"/>
+  <rect x="600" y="360" width="90" height="90" rx="5" fill="#c2410c" opacity="0.7"/>
+  <rect x="570" y="490" width="150" height="40" rx="5" fill="#1e293b"/>
+  <text x="580" y="510" font-family="Arial" font-size="12" fill="white">Leather Belt</text>
+  <text x="580" y="525" font-family="Arial" font-size="12" fill="#3b82f6">$24.99</text>
+  
+  <!-- Icons -->
+  <circle cx="680" y="50" r="10" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <text x="680" y="54" font-family="Arial" font-size="12" fill="white" text-anchor="middle">0</text>
+  
+  <circle cx="710" y="50" r="10" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M705,50 L715,50 M710,45 L710,55" stroke="white" stroke-width="2"/>
+</svg>
